@@ -1,4 +1,4 @@
-# Step 01
+# [Step 01](step-01)
 
 Target: setup project
 - [create project directory](#create-project-dir)
@@ -10,7 +10,7 @@ Target: setup project
 $ mkdir -p /c/Develop/course
 $ cd /c/Develop/course
 ```
-![project setup](images/projectsetup-01.png)
+![project setup](images/step-01/projectsetup-01.png)
 
 ## [Install Angular CLI](#install-angular)
 Angular provides a commandline interface to create angular components
@@ -156,4 +156,4 @@ i ｢wdm｣: Compiled successfully.
 ```
 
 Is deze te benaderen op [http://localhost:4200](http://localhost:4200)
-![](images/webapp-01.png)
+![](images/step-01/webapp-01.png)
