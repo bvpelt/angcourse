@@ -5,7 +5,7 @@
 - [Add location](#ref-03-03)
     - [Change locations component typescript](#ref-03-04)
     - [Change locations html](#ref-03-05) 
-    - [Refactor location](#refactor-location)
+    - [Refactor location](#ref_03_06)
         - [Create location.ts](#create-location)
         - [Refactor src/app/locations/locations.component.ts](#refactor-locations)
         - [Refactor src/app/locations/locations.component.html](#refactor-locations-html)
@@ -88,7 +88,7 @@ Now the location appears in the web browser
 
 ![](images/webapp-05.png)
 
-### [Refactor location](#refactor-location)
+### [Refactor location](#ref_03_06)
 Normally a location would have more properties. In order to make that possible, create a new directory in src/app called model.
 
 #### [Create location.ts](#create-location)
