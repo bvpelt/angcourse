@@ -14,10 +14,14 @@ Start git bash
 ![start git bash](images/gitbash.png)
 
 In git bash window
-
+```bash
+$ git --version
+```
 ![git version](images/gitversion.png)
 
 ### Nodejs and npm
 In the already opened git bash window
-
+```bash
+$ npm --version
+```
 ![npm version](images/npmversion.png)
