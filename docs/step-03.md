@@ -5,10 +5,10 @@
 - [Add location](#ref-03-03)
     - [Change locations component typescript](#ref-03-04)
     - [Change locations html](#ref-03-05) 
-    - [Refactor location](#ref_03_06)
-        - [Create location.ts](#create-location)
-        - [Refactor src/app/locations/locations.component.ts](#refactor-locations)
-        - [Refactor src/app/locations/locations.component.html](#refactor-locations-html)
+    - [Refactor location](#ref-03-06)
+        - [Create location.ts](#ref-03-07)
+        - [Refactor src/app/locations/locations.component.ts](#ref-03-08)
+        - [Refactor src/app/locations/locations.component.html](#ref-03-09)
 
 ## [Cleanup ](#ref-03-01)
 Remove styling from src/app/app.component.css
@@ -88,10 +88,10 @@ Now the location appears in the web browser
 
 ![](images/webapp-05.png)
 
-### [Refactor location](#ref_03_06)
+### [Refactor location](#ref-03-06)
 Normally a location would have more properties. In order to make that possible, create a new directory in src/app called model.
 
-#### [Create location.ts](#create-location)
+#### [Create location.ts](#ref-03-07)
 Go to src/app use right mouse and select **New Folder**
 
 ![](images/editor-01.png)
@@ -117,7 +117,7 @@ export interface Location {
 }
 ```
 
-#### [Refactor src/app/locations/locations.component.ts](#refactor-locations)
+#### [Refactor src/app/locations/locations.component.ts](#ref-03-08)
 Change the content of location.component.ts to:
 
 ```typescript
@@ -147,7 +147,7 @@ export class LocationsComponent implements OnInit {
 }
 ```
 
-#### [Refactor src/app/locations/locations.component.html](#refactor-locations-html)
+#### [Refactor src/app/locations/locations.component.html](#ref-03-09)
 To use the new location with multiple properties change the content of location.component.html to: 
 
 ```html
