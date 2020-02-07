@@ -11,7 +11,7 @@
 ### Git
 Start git bash 
 
-![images/gitbash.png]
+![](images/gitbash.png)
 
 In git bash window
 ```bash
