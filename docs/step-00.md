@@ -1,4 +1,4 @@
-# Angular course
+# [Angular course](#step-00)
 
 ## Requirements
 - git for windows [https://gitforwindows.org/](https://gitforwindows.org/)
@@ -11,17 +11,17 @@
 ### Git
 Start git bash 
 
-![start git bash](images/gitbash.png)
+![start git bash](images/step-00/gitbash.png)
 
 In git bash window
 ```bash
 $ git --version
 ```
-![git version](images/gitversion.png)
+![git version](images/step-00/gitversion.png)
 
 ### Nodejs and npm
 In the already opened git bash window
 ```bash
 $ npm --version
 ```
-![npm version](images/npmversion.png)
+![npm version](images/step-00/npmversion.png)

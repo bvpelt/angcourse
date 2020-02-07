@@ -25,12 +25,12 @@ UPDATE src/app/app.module.ts (408 bytes)
 
 It shows up in the src/app directory
 
-![](images/locations.png)
+![](images/step-03/locations.png)
 
 In src/app/locations/location.component.ts it show the definition of an angular
 component with its own 'selector' **app-locations**
 
-![](images/locations-01.png)
+![](images/step-03/locations-01.png)
 
 To use the app-locations selector add it to src/app/app.component.html. 
 
@@ -48,7 +48,7 @@ $ ng serve
 
 one can now see then new component
 
-![](images/webapp-04.png)
+![](images/step-03/webapp-04.png)
 
 ## [Add location](#ref-03-03)
 
@@ -86,7 +86,7 @@ Change src/app/locations/locations.component.html and add a placeholder so it lo
 
 Now the location appears in the web browser
 
-![](images/webapp-05.png)
+![](images/step-03/webapp-05.png)
 
 ### [Refactor location](#ref-03-06)
 Normally a location would have more properties. In order to make that possible, create a new directory in src/app called model.
@@ -94,16 +94,16 @@ Normally a location would have more properties. In order to make that possible, 
 #### [Create location.ts](#ref-03-07)
 Go to src/app use right mouse and select **New Folder**
 
-![](images/editor-01.png)
+![](images/step-03/editor-01.png)
 
 Type the name of the new directory **model**
 
-![](images/editor-02.png)
+![](images/step-03/editor-02.png)
 
 In the created directory src/app/model create a file named location.ts.
 Go to src/app/model use right mouse and select **New File**
 
-![](images/editor-03.png)
+![](images/step-03/editor-03.png)
 
 Add the following content to src/app/model/location.ts:
 
@@ -177,4 +177,4 @@ To use the new location with multiple properties change the content of location.
 
 The resulting webpage 
 
-![](images/webapp-06.png)
+![](images/step-03/webapp-06.png)
