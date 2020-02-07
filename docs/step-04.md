@@ -1,9 +1,9 @@
 # Step 04
 
 Target: Edit a location
-- [Edit a locateion](edit-a-location)
-    - [Update locations.component.html](update-locations-component)
-    - [Update app.module.ts](update-app-module)
+- [Edit a location](#edit-a-location)
+    - [Update locations component](#update-locations-component)
+    - [Update app module](#update-app-module)
 
 ## Edit a location
 ### Update locations component
