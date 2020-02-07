@@ -1,19 +1,20 @@
-# [Step 03](#step-03)
+# Step 03
 
-- [Cleanup](#ref-03-01)
-- [Generate locations component](#ref-03-02)
-- [Add location](#ref-03-03)
-    - [Change locations component typescript](#ref-03-04)
-    - [Change locations html](#ref-03-05) 
-- [Refactor location](#ref-03-06)
-    - [Create location.ts](#ref-03-07)
-    - [Refactor src/app/locations/locations.component.ts](#ref-03-08)
-    - [Refactor src/app/locations/locations.component.html](#ref-03-09)
+Target: add content on screen
+- [Cleanup](#cleanup)
+- [Generate locations component](#generate-locations-component)
+- [Add location](#add-location)
+    - [Change locations component typescript](#change-locations-component-typescript)
+    - [Change locations html](#change-locations-html) 
+- [Refactor location](#refactor-location)
+    - [Create location.ts](#create-location.ts)
+    - [Refactor src/app/locations/locations.component.ts](#refactor-src/app/locations/locations.component.ts)
+    - [Refactor src/app/locations/locations.component.html](#refactor-src/app/locations/locations.component.html)
 
-## [Cleanup ](#ref-03-01)
+## Cleanup
 Remove styling from src/app/app.component.css
 
-## [Generate locations component](#ref-03-02)
+## Generate locations component
 ```bash
 $ ng generate component locations
 CREATE src/app/locations/locations.component.html (24 bytes)
@@ -50,9 +51,9 @@ one can now see then new component
 
 ![](images/step-03/webapp-04.png)
 
-## [Add location](#ref-03-03)
+## Add location
 
-### [Change locations component typescript](#ref-03-04)
+### Change locations component typescript
 To really use the locaions component, first add a location.
 Change src/app/locations/locations.component.ts so it looks like:
 
@@ -76,7 +77,7 @@ export class LocationsComponent implements OnInit {
 }
 ```
 
-### [Change locations html](#ref-03-05) 
+### Change locations html
 Inject the information from the typescript component into the html file.
 Change src/app/locations/locations.component.html and add a placeholder so it looks like:
 
@@ -88,10 +89,10 @@ Now the location appears in the web browser
 
 ![](images/step-03/webapp-05.png)
 
-### [Refactor location](#ref-03-06)
+### Refactor location
 Normally a location would have more properties. In order to make that possible, create a new directory in src/app called model.
 
-#### [Create location.ts](#ref-03-07)
+#### Create location.ts
 Go to src/app use right mouse and select **New Folder**
 
 ![](images/step-03/editor-01.png)
@@ -117,7 +118,7 @@ export interface Location {
 }
 ```
 
-#### [Refactor src/app/locations/locations.component.ts](#ref-03-08)
+#### Refactor src/app/locations/locations.component.ts
 Change the content of location.component.ts to:
 
 ```typescript
@@ -147,7 +148,7 @@ export class LocationsComponent implements OnInit {
 }
 ```
 
-#### [Refactor src/app/locations/locations.component.html](#ref-03-09)
+#### Refactor src/app/locations/locations.component.html
 To use the new location with multiple properties change the content of location.component.html to: 
 
 ```html

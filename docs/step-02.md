@@ -1,4 +1,4 @@
-# [Step 02](#step-02)
+# Step 02
 
 Target: add angular application:
 - [restart application server](#restart-application-server)
@@ -6,14 +6,14 @@ Target: add angular application:
 - [add some content](#add-some-content)
 - [troubleshooting](#troubleshooting)
 
-## [Restart application server](#restart-application-server)
+## Restart application server
 If not already running, start the application server
 ```bash
 $ ng serve
 ```
 Open the browser at [http://localhost:4200/](http://localhost:4200/)
 
-## [Remove generated app](#remove-generated-app)
+## Remove generated app
 Start the editor
 
 ![](images/step-02/start-visual-studio.png)
@@ -30,7 +30,7 @@ Once removed, on the background the website is regenerated
 
 ![](images/step-02/webapp-02.png)
 
-## [Add some content](#add-some-content) 
+## Add some content
 Add content to the file src/app.component.html
 
 ```html
@@ -57,7 +57,7 @@ background and color attributes:
 
 ![](images/step-02/set-backgroundcolor-visual-studio.png)
 
-## [Troubleshooting](#troubleshooting)
+## Troubleshooting
 If page doesnot appear as expected use the developertools to inspect the page.
 
 ![](images/step-02/webtools.png) 

@@ -8,3 +8,4 @@ It is divided in several steps
 - [start angular project](docs/step-02.md#step-02)
 - [add location component](docs/step-03.md#step-03)
 - [edit location](docs/step-04.md#step-04)
+
