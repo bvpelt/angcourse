@@ -1,6 +1,9 @@
 # Step 01
 
 Target: setup project
+- [create project directory](Create project directory)
+- [install angular cli](Install Angular CLI)
+- [start generated webapp](Start generated webapp)
 
 ## Create project directory
 ```bash
