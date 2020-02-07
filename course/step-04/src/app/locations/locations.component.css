@@ -1,0 +1,14 @@
+.content {
+    margin: 8px 0 0 8px;
+}
+
+label {
+    min-width: 6em;
+    padding: 8px 8px 0 0;
+    display: inline-block;
+}
+
+input {
+    width: 20em;
+    padding: 8px  8px 0 0;
+}
