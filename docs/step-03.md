@@ -174,3 +174,7 @@ To use the new location with multiple properties change the content of location.
     </div>
 </div>
 ```
+
+The resulting webpage 
+
+![](images/webapp-06.png)
