@@ -1,4 +1,6 @@
 # [Step 02](#step-02)
+
+Target: add angular application:
 - [restart application server](#restart-application-server)
 - [remove generated app](#remove-generated-app)
 - [add some content](#add-some-content)
