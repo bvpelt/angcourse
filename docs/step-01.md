@@ -2,7 +2,7 @@
 
 Target: setup project
 - [create project directory](#create-project-dir)
-- [install angular cli](install-angular)
+- [install angular cli](#install-angular)
 - [start generated webapp](#start-generated-webapp)
 
 ## [Create project directory](#create-project-dir)
