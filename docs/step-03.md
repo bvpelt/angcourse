@@ -1,19 +1,19 @@
 # [Step 03](#step-03)
 
-- [Cleanup](#cleanup)
-- [Generate locations component](#generate-loc-comp)
-- [Add location](#add-location)
-    - [Change locations component typescript](#change-location)
-    - [Change locations html](#change-location-html) 
+- [Cleanup](#ref-03-01)
+- [Generate locations component](#ref-03-02)
+- [Add location](#ref-03-03)
+    - [Change locations component typescript](#ref-03-04)
+    - [Change locations html](#ref-03-05) 
     - [Refactor location](#refactor-location)
         - [Create location.ts](#create-location)
         - [Refactor src/app/locations/locations.component.ts](#refactor-locations)
         - [Refactor src/app/locations/locations.component.html](#refactor-locations-html)
 
-## [Cleanup ](#cleanup)
+## [Cleanup ](#ref-03-01)
 Remove styling from src/app/app.component.css
 
-## [Generate locations component](#generate-loc-comp)
+## [Generate locations component](#ref-03-02)
 ```bash
 $ ng generate component locations
 CREATE src/app/locations/locations.component.html (24 bytes)
@@ -50,9 +50,9 @@ one can now see then new component
 
 ![](images/webapp-04.png)
 
-## [Add location](#add-location)
+## [Add location](#ref-03-03)
 
-### [Change locations component typescript](#change-location)
+### [Change locations component typescript](#ref-03-04)
 To really use the locaions component, first add a location.
 Change src/app/locations/locations.component.ts so it looks like:
 
@@ -76,7 +76,7 @@ export class LocationsComponent implements OnInit {
 }
 ```
 
-### [Change locations html](#change-location-html) 
+### [Change locations html](#ref-03-05) 
 Inject the information from the typescript component into the html file.
 Change src/app/locations/locations.component.html and add a placeholder so it looks like:
 
