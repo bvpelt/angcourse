@@ -1,18 +1,18 @@
 # Step 01
 
 Target: setup project
-- [create project directory](Create project directory)
-- [install angular cli](Install Angular CLI)
-- [start generated webapp](Start generated webapp)
+- [create project directory](#create-project-dir)
+- [install angular cli](install-angular)
+- [start generated webapp](#start-generated-webapp)
 
-## Create project directory
+## [Create project directory](#create-project-dir)
 ```bash
 $ mkdir -p /c/Develop/course
 $ cd /c/Develop/course
 ```
 ![project setup](images/projectsetup-01.png)
 
-## Install Angular CLI
+## [Install Angular CLI](#install-angular)
 Angular provides a commandline interface to create angular components
 
 ```bash
@@ -137,7 +137,7 @@ The file will have its original line endings in your working directory
     Successfully initialized git.
 ```
 
-## Start generated webapp
+## [Start generated webapp](start-generated-webapp)
 Na opstarten van de applicatie
 ```bash
 $ ng serve
