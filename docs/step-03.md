@@ -5,10 +5,10 @@
 - [Add location](#ref-03-03)
     - [Change locations component typescript](#ref-03-04)
     - [Change locations html](#ref-03-05) 
-    - [Refactor location](#ref-03-06)
-        - [Create location.ts](#ref-03-07)
-        - [Refactor src/app/locations/locations.component.ts](#ref-03-08)
-        - [Refactor src/app/locations/locations.component.html](#ref-03-09)
+- [Refactor location](#ref-03-06)
+    - [Create location.ts](#ref-03-07)
+    - [Refactor src/app/locations/locations.component.ts](#ref-03-08)
+    - [Refactor src/app/locations/locations.component.html](#ref-03-09)
 
 ## [Cleanup ](#ref-03-01)
 Remove styling from src/app/app.component.css

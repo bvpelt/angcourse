@@ -41,6 +41,7 @@ Add content to the file src/app.component.html
 Only after ^S the file is written to disk and compiled and served.
 
 The following information appears
+
 ![](images/webapp-03.png)
 
 Styling can be added by adding css text to src/app.component.css. For example
