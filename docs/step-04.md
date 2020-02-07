@@ -2,11 +2,11 @@
 
 Target: Edit a location
 - [Edit a locateion](edit-a-location)
-    - [Update locations.component.html](update-locations-component-html)
-    - [Update app.module.ts](update-app-module-ts)
+    - [Update locations.component.html](update-locations-component)
+    - [Update app.module.ts](update-app-module)
 
 ## Edit a location
-### Update locations component html
+### Update locations component
 Change the content of src/app/locations/locations.component.html to:
 ```html
 <div class="content">
@@ -68,7 +68,7 @@ input {
 ```
 
 
-### Update app module ts
+### Update app module
 In order to restore the working application change app.module.ts to:
 
 ```typescript
