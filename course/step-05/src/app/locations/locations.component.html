@@ -1,0 +1,34 @@
+<div class="content">
+    
+    <div>
+        <fieldset>
+            <label for="fstreet">street</label>
+            <input id="fstreet" [(ngModel)]="location.street" placeholder="street" /><br>
+            <label for="fhousenumber">housenumber</label>
+            <input id="fhousenumber" [(ngModel)]="location.housenumber" placeholder="housenumber" /><br>
+            <label for="fpostalcode"> postalcode</label>
+            <input id="fpostalcode" [(ngModel)]="location.postalcode" placeholder="postalcode" /><br>
+            <label for="fcity">city</label>
+            <input id="fcity" [(ngModel)]="location.city" placeholder="city" /><br>
+        </fieldset>
+    </div>
+
+    <hr>
+
+    <div class="id">id</div>
+    <div class="street">street</div>
+    <div class="housenumber">housenumber</div>
+    <div class="postalcode">postalcode</div>
+    <div class="city">city</div>
+
+    <ul>
+        <li *ngFor="let location of locations">
+            <span class="id">{{location.id}}</span>
+            <span class="street">{{location.street}}</span>
+            <span class="housenumber">{{location.housenumber}}</span>
+            <span class="postalcode">{{location.postalcode}}</span>
+            <span class="city">{{location.city}}</span>
+        </li>
+    </ul>
+
+</div>
