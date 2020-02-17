@@ -10,4 +10,5 @@ It is divided in several steps
 - [edit location](docs/step-04.md#step-04)
 - [use list of locations](docs/step-05.md#step-05)
 - [select element in list](docs/step-06.md#step-06)
+- [use a service](docs/step-07.md#step-07)
 
