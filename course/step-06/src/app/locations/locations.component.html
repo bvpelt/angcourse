@@ -1,0 +1,36 @@
+<div class="content">
+    
+    <div *ngIf="selectedLocation">
+        <fieldset>
+            <label for="fid" >id</label>
+            <input id="fid" [(ngModel)]="selectedLocation.id" placeholder="id" disabled /><br>
+            <label for="fstreet">street</label>
+            <input id="fstreet" [(ngModel)]="selectedLocation.street" placeholder="street" /><br>
+            <label for="fhousenumber">housenumber</label>
+            <input id="fhousenumber" [(ngModel)]="selectedLocation.housenumber" placeholder="housenumber" /><br>
+            <label for="fpostalcode"> postalcode</label>
+            <input id="fpostalcode" [(ngModel)]="selectedLocation.postalcode" placeholder="postalcode" /><br>
+            <label for="fcity">city</label>
+            <input id="fcity" [(ngModel)]="selectedLocation.city" placeholder="city" /><br>
+        </fieldset>
+    </div>
+
+    <hr *ngIf="selectedLocation">
+
+    <div class="header id">id</div>
+    <div class="header street">street</div>
+    <div class="header housenumber">housenumber</div>
+    <div class="header postalcode">postalcode</div>
+    <div class="header city">city</div>
+
+    <ul class="location">
+        <li *ngFor="let location of locations" [class.selected]="location === selectedLocation" (click)="onSelect(location)">
+            <span class="id">{{location.id}}</span>
+            <span class="street">{{location.street}}</span>
+            <span class="housenumber">{{location.housenumber}}</span>
+            <span class="postalcode">{{location.postalcode}}</span>
+            <span class="city">{{location.city}}</span>
+        </li>
+    </ul>
+
+</div>

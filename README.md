@@ -8,4 +8,6 @@ It is divided in several steps
 - [start angular project](docs/step-02.md#step-02)
 - [add location component](docs/step-03.md#step-03)
 - [edit location](docs/step-04.md#step-04)
+- [use list of locations](docs/step-05.md#step-05)
+- [select element in list](docs/step-06.md#step-06)
 
