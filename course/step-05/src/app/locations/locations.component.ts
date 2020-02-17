@@ -9,14 +9,6 @@ import { LOCATIONS } from '../mock/mock-locations';
 })
 export class LocationsComponent implements OnInit {
 
-  location: Location = {
-    id: 1,
-    street: 'Kubus veenendaal',
-    housenumber: 2,
-    postalcode: '3904 AB',
-    city: 'Veenendaal'
-  };
-
   locations = LOCATIONS;
 
   constructor() { }
