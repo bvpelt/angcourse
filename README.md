@@ -11,4 +11,5 @@ It is divided in several steps
 - [use list of locations](docs/step-05.md#step-05)
 - [select element in list](docs/step-06.md#step-06)
 - [use a service](docs/step-07.md#step-07)
+- [update the service](docs/step-08.md#step-08)
 
