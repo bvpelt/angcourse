@@ -18,3 +18,6 @@ It is divided in several steps
 
 ## References
 - [update npm (linux)](https://www.hostingadvice.com/how-to/update-node-js-latest-version/)
+- [update angular](https://update.angular.io/)
+- [angular with openlayers](https://medium.com/angularjs-meetup-south-london/angular-integration-with-openlayers-3-5a6e8d29e635)
+
