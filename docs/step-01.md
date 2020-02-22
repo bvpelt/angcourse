@@ -22,7 +22,7 @@ $ npm install -g @angular/cli
 Use the angular cli to create the application 'webapp'
 
 ```bash
-$ npm new webapp --directory .
+$ ng new webapp --directory .
 CREATE angular.json (3593 bytes)
 CREATE package.json (1292 bytes)
 CREATE README.md (1024 bytes)
