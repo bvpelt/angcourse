@@ -12,4 +12,9 @@ It is divided in several steps
 - [select element in list](docs/step-06.md#step-06)
 - [use a service](docs/step-07.md#step-07)
 - [update the service](docs/step-08.md#step-08)
+- [add a map](docs/step-09.md#step-09)
 
+
+
+## References
+- [update npm (linux)](https://www.hostingadvice.com/how-to/update-node-js-latest-version/)
