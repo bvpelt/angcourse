@@ -1,0 +1,18 @@
+<div class="content">
+    <div *ngIf="selectedAdres">
+        <div class="adres">selected adres: </div>{{selectedAdres}}
+    </div>
+    <fieldset>
+        <label for="fselectadres">adres</label>
+        <input id="fselectadres" [(ngModel)]="searchAdres" placeholder="search adres"
+            (keyup)="onKeyup($event.target.value);" />
+    </fieldset>
+    <div *ngIf="adresses">
+        <ul class="location">
+            <li *ngFor="let adres of adresses; index as i" (click)="onSelect(adres,i)"
+                [class.selected]="adres === selectedAdres">
+                <div [innerHTML]="adres"></div>
+            </li>
+        </ul>
+    </div>
+</div>
