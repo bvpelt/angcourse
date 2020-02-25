@@ -109,7 +109,6 @@ export class MapComponent implements AfterViewInit {
 
     this.map.getView().setMaxZoom(14);
     this.map.getView().setMinZoom(2);
-    this.map.getView().fit(this.layerUtil.center, { padding: [50, 50, 50, 50] });
 
     this.locationExchange.currentLocation.subscribe(point => {
       this.moveTo(point);
@@ -119,7 +118,6 @@ export class MapComponent implements AfterViewInit {
   }
 
   private moveTo(point: Point, duration: number = 2000, zoomLevel: number = 11) {
-    console.log('Map - moveto point: ' + point);
     var view: View = this.map.getView();
     view.animate(
       { zoom: zoomLevel },
