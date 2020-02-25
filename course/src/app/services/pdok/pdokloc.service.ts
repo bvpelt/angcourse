@@ -32,10 +32,10 @@ export class PdoklocService {
     ;
   }
 
-  public getLookup(id: string): Observable<Suggest> {
+  public getLookup(id: string): Observable<Adres> {
     const url = this.pdokLocUrl + '/lookup?id=' + id;
-    return this.http.get<Suggest>(url).pipe(
-      catchError(this.handleError<Suggest>('getLookup', null))
+    return this.http.get<Adres>(url).pipe(
+      catchError(this.handleError<Adres>('getLookup', null))
     );
     ;
   }

@@ -1,16 +1,12 @@
 import Extent from 'ol/interaction/Extent';
 import Point from 'ol/geom/Point';
 import Projection from 'ol/proj/Projection';
+import { Config } from 'src/app/config/config';
 
 export class LayerUtil {
   private static _instance: LayerUtil = null;
+  private config: Config = Config.instance;
 
-  private _projectionName: string = 'EPSG:28992';
-  private _units: string = 'm';
-  private _projectionExtent: any = [-285401.92, 22598.08, 595401.9199999999, 903401.9199999999];
-  private _nlxtent: Extent = new Extent({ extent: [9632, 306708, 278200, 622130] });
-  private _center: Point = new Point([156527, 456220]);
-  //private _center: Point = new Point([166546.5, 446639.31]);
   private _resolutions: number[] = [
     3440.64,
     1720.32,
@@ -30,9 +26,9 @@ export class LayerUtil {
   ];
   private _matrixIds: string[] = new Array<string>(this._resolutions.length);
   private _rdProjection: Projection = new Projection({
-    code: this._projectionName,
-    units: this._units,
-    extent: this._projectionExtent,
+    code: this.config.projectionName,
+    units: this.config.units,
+    extent: this.config.projectionExtent,
     getPointResolution: function (resolution) {
       return resolution;
     },
@@ -40,8 +36,8 @@ export class LayerUtil {
 
   private constructor() {
     for (let z = 0; z < this._resolutions.length; ++z) {
-      this._matrixIds[z] = this._projectionName + ':' + z;
-      console.log('LayerUtil - Generating matrixids[' + z + ']: ' + this._matrixIds[z]);
+      this._matrixIds[z] = this.config.projectionName + ':' + z;
+      // console.log('LayerUtil - Generating matrixids[' + z + ']: ' + this._matrixIds[z]);
     }
   }
 
@@ -50,19 +46,19 @@ export class LayerUtil {
   }
 
   public get nlxtent(): Extent {
-    return this._nlxtent;
+    return this.config.nlxtent;
   }
 
   public get units(): string {
-    return this._units;
+    return this.config.units;
   }
 
   public get center(): Point {
-    return this._center;
+    return this.config.center;
   }
 
   public get projectionName(): string {
-    return this._projectionName;
+    return this.config.projectionName;
   }
 
   public get rdProjection(): Projection {
@@ -70,7 +66,7 @@ export class LayerUtil {
   }
 
   public get projectionExtent(): any {
-    return this._projectionExtent;
+    return this.config.projectionExtent;
   }
 
   public get resultions(): number[] {
