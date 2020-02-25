@@ -5,6 +5,7 @@ export class Config {
     private static _instance: Config;
 
     private _pdokwmtsurl: string = 'https://geodata.nationaalgeoregister.nl/tiles/service/wmts?';
+    private _pdokwmtsluchtfoto: string = 'https://geodata.nationaalgeoregister.nl/luchtfoto/rgb/wmts?';
     private _pdokwmtsimageformat: string = 'image/png';
     private _projectionName: string = 'EPSG:28992';
     private _units: string = 'm';
@@ -25,6 +26,14 @@ export class Config {
 
     public set pdokwmtsurl(url: string) {
         this._pdokwmtsurl = url;
+    }
+
+    public get pdokwmtsluchtfoto(): string {
+        return this._pdokwmtsluchtfoto;
+    }
+
+    public set pdokwmtsluchtfoto(url: string) {
+        this._pdokwmtsluchtfoto = url;
     }
 
     public get pdokwmtsimageformatmtsurl(): string {

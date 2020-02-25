@@ -37,7 +37,7 @@ export class LayerUtil {
   private constructor() {
     for (let z = 0; z < this._resolutions.length; ++z) {
       this._matrixIds[z] = this.config.projectionName + ':' + z;
-      // console.log('LayerUtil - Generating matrixids[' + z + ']: ' + this._matrixIds[z]);
+      //console.log('LayerUtil - Generating matrixids[' + z + ']: ' + this._matrixIds[z]);
     }
   }
 

@@ -13,6 +13,7 @@ It is divided in several steps
 - [use a service](docs/step-07.md#step-07)
 - [update the service](docs/step-08.md#step-08)
 - [add a map](docs/step-09.md#step-09)
+- [connect search with map](docs/step-10.md#step-10)
 
 
 
