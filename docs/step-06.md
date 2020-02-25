@@ -1,12 +1,12 @@
 # Step 06
 
 Target: make it possible to select item from list
-- [Select element from list](select-element-from-list)
+- [Select element from list](#select-element-from-list)
 
 ## Select element from list
-- [Refactor src/app/locations/locations.component.ts](change-locations.component.ts)
-- [Refactor src/app/locations/locations.component.html](change-locations.component.html)
-- [Refactor src/app/locations/locations.component.css](change-locations.component.css)
+- [Refactor src/app/locations/locations.component.ts](#change-locations.component.ts)
+- [Refactor src/app/locations/locations.component.html](#change-locations.component.html)
+- [Refactor src/app/locations/locations.component.css](#change-locations.component.css)
 
 ### Change locations.component.ts
 ```typescript

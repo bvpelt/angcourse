@@ -13,17 +13,17 @@ and determine our usecases. For this demonstration we will only use the service 
 an adres. Other options are also possible see the [API-Locatieserver](https://github.com/PDOK/locatieserver/wiki/API-Locatieserver).
 
 Examples of input/output is shown in:
-- [Example suggest query](example-suggest-query)
-- [Example lookup query](example-lookup-query)
+- [Example suggest query](#example-suggest-query)
+- [Example lookup query](#example-lookup-query)
 
 To setup the software to use a service we need to
-- [define a service](define-a-service)
-- [define a datastructure to receive the answer](define-data-structure)
+- [define a service](#define-a-service)
+- [define a datastructure to receive the answer](#define-data-structure)
 
 ## Define a service
 For a service to work we need
-- [The http client module](Add-the-http-client-module)
-- [To define the service](Define-a-service)
+- [The http client module](#Add-the-http-client-module)
+- [To define the service](#Define-a-service)
 
 ### Add the http client module
 In src/app/app.module.ts we add the http client module so the content of the file is:
@@ -53,8 +53,8 @@ export class AppModule { }
 ### Define a service
 
 To define the pdok location service you need to
-- [generate the service](Generate-the-service)
-- [add an implementation to the service](Add-an-implementation-to-the-service)
+- [generate the service](#Generate-the-service)
+- [add an implementation to the service](#Add-an-implementation-to-the-service)
 
 #### Generate the service
 To generate the service type at the command line:
@@ -70,7 +70,7 @@ This offers the possibility:
 
 You also need to define the datastructures
 - Suggest, the result of the suggest api call
-- Adres, the result of the lookup api call ([see step 08](../step-08.md#step-08))
+- Adres, the result of the lookup api call ([see step 08](#../step-08.md#step-08))
 
 To use the service add the following code to src/app/services/pdok/pdokloc.service.ts
 
@@ -147,8 +147,8 @@ The following datastructures will be added to src/app/model
 The old locations.ts can be removed as well as the src/app/mock directory with all its files.
 
 These datastructures are derived from: 
-- [Example suggest query](Example-suggest-query)
-- [Example lookup query](Example-lookup-query)
+- [Example suggest query](#Example-suggest-query)
+- [Example lookup query](#Example-lookup-query)
 
 The content of adres.ts is
 
@@ -370,7 +370,7 @@ label {
 ```
 
 ## Define data structure
-We need to define a structure to receive the results of the api query and we will be using the highlighting part from the [suggest query](example-suggest-query).
+We need to define a structure to receive the results of the api query and we will be using the highlighting part from the [suggest query](#example-suggest-query).
 
 
 ## Example suggest query

@@ -3,9 +3,9 @@
 Target: add a map
 
 To add a map
-- [add openlayers library](Add-openlayers-library)
-- [add Openlayers style](Add-Openlayers-style)
-- [generate map component](Generate-map-component)
+- [add openlayers library](#Add-openlayers-library)
+- [add Openlayers style](#Add-Openlayers-style)
+- [generate map component](#Generate-map-component)
 
 After all the steps described below 
 
@@ -359,20 +359,20 @@ ng generate component map
 ```
 
 An Openlayer map needs to be configured with
-- [one or more layers](Layers)
+- [one or more layers](#Layers)
 - a view
 - optional controls
 
-The view and controls are defined in the [map](Map)
+The view and controls are defined in the [map](#Map)
 
 ### Layers
 
 In this course you will use the following maps from pdok:
-- [bgtachtergrond](Bgtachtergrond)
-- [bgtstandaard](Bgtstandaard)
-- [brtachtergrondkaart](Brtachtergrondkaart)
+- [bgtachtergrond](#Bgtachtergrond)
+- [bgtstandaard](#Bgtstandaard)
+- [brtachtergrondkaart](#Brtachtergrondkaart)
 
-Since all mapps have some common properties first we will define a [config](Config) and a [layerutility](LayerUtil) class to have all common code in one module.
+Since all mapps have some common properties first we will define a [config](#Config) and a [layerutility](#LayerUtil) class to have all common code in one module.
 
 #### Config
 
@@ -665,8 +665,8 @@ export class BrtAchtergrondLayer {
 ### Map
 
 To visualise the map we need to
-- [Make an implementation for the map component](Implementation-Map-Component)
-- [Update the main application screen](Update-main-screen)
+- [Make an implementation for the map component](#Implementation-Map-Component)
+- [Update the main application screen](#Update-main-screen)
 
 #### Implementation Map Component
 

@@ -1,8 +1,8 @@
 # Step 05
 
 Target: Make it possible to use a list of locations
-- [Generate mock data](generate-mock-data)
-- [Display locations](display-locations)
+- [Generate mock data](#generate-mock-data)
+- [Display locations](#display-locations)
 
 ## Generate mock data
 In order to show a list of location there should be a number of locations.
