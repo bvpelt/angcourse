@@ -3,8 +3,8 @@
 Target: connect the searchbox with the map. When searched for an adres and selected the adres, show it on the map.
 
 To make the connection the following changes are needed:
-- [pass selected coordiantes](Pass_coordinates)
-- [for selected adres find coordinates](Find_coordinates)
+- [pass selected coordiantes](pass_coordinates)
+- [for selected adres find coordinates](find_coordinates)
 - [update map](Update_map)
 
 ## Pass coordinates
